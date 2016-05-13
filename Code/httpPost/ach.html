@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>test export wcap_cal</title>
+		<meta http-equiv="Content-Language">
+		<meta content="fr">
+		<meta charset="utf-8">
+	</head>
+
+	<!-- début du body -->
+	<body>
+
+		<form METHOD=POST ENCTYPE="multipart/form-data" NAME="wcap_cal.ics" ACTION="https://agenda.univ-ubs.fr/export.wcap?id=n%2FTEfNmCOio&calid=adamm&dtstart=0&dtend=0&content-out=text/calendar">
+			<ul>
+				 <li>
+				 	Press Export ICAL Now : <input type="submit" value="Export ICAL now"\>
+				</li> 
+			</ul> 
+		</form>
+
+		<form METHOD=POST ENCTYPE="multipart/form-data" NAME="wcap_cal.xml" ACTION="https://agenda.univ-ubs.fr/export.wcap?id=n%2FTEfNmCOio&calid=adamm&dtstart=0&dtend=0&content-out=text/xml">
+			<ul>
+ 				<li>
+ 					Press Export XML Now : <input type="submit" value="Export XML now"\>
+ 				</li>
+			</ul> 
+		</form>
+
+	<!-- fin du body -->
+	</body>	
+
+</html>
+
+
+<!-- l'id inscrit dans l'url a été d'abord récupéré via une connexion par le proxy -->
+<!-- les paramètres dstart et dtend (respectivement les dates de début et de fin des évènements à importer) sont mis à zéro
+ce qui importe tous les évènements sans distinction de date -->

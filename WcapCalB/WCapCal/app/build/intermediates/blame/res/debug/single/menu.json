@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/adamm/AndroidStudioProjects/WCapCal/app/build/intermediates/res/merged/debug/menu/picker.xml",
+        "source": "/home/adamm/AndroidStudioProjects/WCapCal/app/src/main/res/menu/picker.xml"
+    },
+    {
+        "merged": "/home/adamm/AndroidStudioProjects/WCapCal/app/build/intermediates/res/merged/debug/menu/first_page.xml",
+        "source": "/home/adamm/AndroidStudioProjects/WCapCal/app/src/main/res/menu/first_page.xml"
+    }
+]

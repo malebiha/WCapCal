@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pref_key_category_1"
+        android:title="@string/title_category_1" >
+        
+        <Preference
+            android:dependency="pref_key_pref_1"
+            android:key="modification"
+            android:summary="@string/summary_pref_1"
+            android:title="@string/sync" />
+    </PreferenceCategory>
+   
+
+</PreferenceScreen>

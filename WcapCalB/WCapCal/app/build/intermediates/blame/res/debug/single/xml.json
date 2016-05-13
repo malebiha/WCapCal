@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/adamm/AndroidStudioProjects/WCapCal/app/build/intermediates/res/merged/debug/xml/preferencescreen.xml",
+        "source": "/home/adamm/AndroidStudioProjects/WCapCal/app/src/main/res/xml/preferencescreen.xml"
+    },
+    {
+        "merged": "/home/adamm/AndroidStudioProjects/WCapCal/app/build/intermediates/res/merged/debug/xml/export.xml",
+        "source": "/home/adamm/AndroidStudioProjects/WCapCal/app/src/main/res/xml/export.xml"
+    },
+    {
+        "merged": "/home/adamm/AndroidStudioProjects/WCapCal/app/build/intermediates/res/merged/debug/xml/modification.xml",
+        "source": "/home/adamm/AndroidStudioProjects/WCapCal/app/src/main/res/xml/modification.xml"
+    }
+]

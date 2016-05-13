@@ -1,0 +1,147 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:2:1-61:12
+	xmlns:android
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:3:5-26
+		INJECTED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:10:5-72
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:10:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:11:5-73
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:11:22-70
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:12:22-74
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:13:22-75
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:14:22-77
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:15:5-71
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:15:22-68
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:18:22-78
+uses-permission#android.permission.BATTERY_STATS
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:19:22-69
+uses-sdk
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:21:5-23:41
+MERGED from [com.android.support:gridlayout-v7:19.1.0] /home/adamm/AndroidStudioProjects/WCapCal/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/19.1.0/AndroidManifest.xml:18:5-42
+	android:targetSdkVersion
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:23:9-38
+		INJECTED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:22:9-35
+		INJECTED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml
+		INJECTED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:25:5-59:19
+MERGED from [com.android.support:gridlayout-v7:19.1.0] /home/adamm/AndroidStudioProjects/WCapCal/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/19.1.0/AndroidManifest.xml:19:5-20
+	android:label
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:28:9-41
+	android:allowBackup
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:26:9-35
+	android:icon
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:27:9-45
+	android:theme
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:29:9-40
+activity#cal.WCapCal.Main
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:30:9-39:20
+	android:screenOrientation
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:33:13-49
+	android:label
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:32:13-45
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:31:13-44
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:37:27-74
+service#cal.WCapCal.MyService
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:41:9-43:38
+	android:enabled
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:43:13-35
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:42:13-49
+activity#cal.WCapCal.Picker
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:45:9-48:20
+	android:label
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:47:13-58
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:46:13-46
+receiver#listeners.Receiver
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:50:9-58:17
+	android:exported
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:50:76-100
+	android:enabled
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:50:53-75
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:50:19-52
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.POWER_CONNECTED+android.intent.action.POWER_DISCONNECTED+android.net.conn.CONNECTIVITY_CHANGE+android.net.wifi.WIFI_STATE_CHANGED
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:51:4-57:20
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:52:5-67
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:52:13-64
+action#android.intent.action.POWER_CONNECTED
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:53:5-68
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:53:13-65
+action#android.intent.action.POWER_DISCONNECTED
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:54:5-71
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:54:13-68
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:55:5-67
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:55:13-64
+action#android.net.wifi.WIFI_STATE_CHANGED
+ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:56:5-66
+	android:name
+		ADDED from /home/adamm/AndroidStudioProjects/WCapCal/app/src/main/AndroidManifest.xml:56:13-63

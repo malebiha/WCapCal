@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pref_key_category_1"
+        android:title="@string/title_category_1" >
+        
+        <SwitchPreference
+            android:key="switch1"
+            android:summary="@string/summary_pref_1"
+            android:switchTextOff="@string/Off"
+            android:switchTextOn="@string/On"
+            android:title="@string/sync" />
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkbox1"
+            android:summary="@string/summary_pref_1"
+            android:title="@string/sync" />
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkbox2"
+            android:summary="@string/summary_pref_1"
+            android:title="@string/sync" />
+        
+        <Preference
+            android:dependency="pref_key_pref_1"
+            android:key="numberpicker1"
+            android:summary="@string/summary_pref_1"
+            android:title="@string/sync" />
+    </PreferenceCategory>
+   
+
+</PreferenceScreen>

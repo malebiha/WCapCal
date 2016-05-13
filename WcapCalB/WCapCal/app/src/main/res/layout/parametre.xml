@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blanche"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Noire" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="529dp"
+            android:background="@color/Blanche"
+            android:baselineAligned="false"
+            android:fitsSystemWindows="true"
+            android:minHeight="530dp"
+            android:orientation="vertical"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbars="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/AdvandedParameter"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/Noire"
+                android:textSize="26sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="152dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/SyncAuto"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/Noire"
+                    android:textSize="16sp" />
+
+                <Switch
+                    android:id="@+id/switch1"
+                    android:layout_width="0dp"
+                    android:layout_height="43dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="0.38"
+                    android:checked="true"
+                    android:includeFontPadding="true"
+                    android:longClickable="false"
+                    android:paddingRight="45dp"
+                    android:paddingTop="5dp"
+                    android:textOff="@string/Off"
+                    android:textOn="@string/On" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:paddingTop="10dp"
+                android:text="@string/SyncDelai"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/Noire"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp" >
+
+                <NumberPicker
+                    android:id="@+id/numberPicker1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="-5dp"
+                    android:clickable="true"
+                    android:visibility="visible" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:paddingTop="10dp"
+                android:text="@string/DataRecept"
+                android:textColor="@color/Noire"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                style="android:checkboxStyle"
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/Reseau"
+                android:textColor="@color/Noire" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="50dp"
+                android:text="@string/Wifi"
+                android:textColor="@color/Noire" />
+
+            <TextView
+                android:id="@+id/TextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/NomAgenda"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/Noire"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/EditText4"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/GrisEdit"
+                android:contentDescription="@string/Url"
+                android:ems="10"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:textColor="@color/Noire"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/Couleur"
+                android:textColor="@color/Noire"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttoncolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/Gris"
+                android:gravity="center"
+                android:text="@string/button"
+                android:textColor="@color/Noire"
+                android:width="290dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/Pourcentage"
+                android:textColor="@color/Noire"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="15dp"
+                android:background="@color/Blanche"
+                android:contentDescription="@string/button"
+                android:src="@android:drawable/ic_menu_info_details" />
+
+            <SeekBar
+                android:id="@+id/seekBar1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:max="100" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/PourcentageValue"
+                android:textColor="@color/Noire"
+                android:textSize="16sp" />
+        </LinearLayout>
+    
+    </ScrollView>
+
+</RelativeLayout>

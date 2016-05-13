@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/adamm/AndroidStudioProjects/WCapCal/app/build/intermediates/res/merged/debug/layout/colorpicker.xml",
+        "source": "/home/adamm/AndroidStudioProjects/WCapCal/app/src/main/res/layout/colorpicker.xml"
+    },
+    {
+        "merged": "/home/adamm/AndroidStudioProjects/WCapCal/app/build/intermediates/res/merged/debug/layout/accueil.xml",
+        "source": "/home/adamm/AndroidStudioProjects/WCapCal/app/src/main/res/layout/accueil.xml"
+    },
+    {
+        "merged": "/home/adamm/AndroidStudioProjects/WCapCal/app/build/intermediates/res/merged/debug/layout/information.xml",
+        "source": "/home/adamm/AndroidStudioProjects/WCapCal/app/src/main/res/layout/information.xml"
+    },
+    {
+        "merged": "/home/adamm/AndroidStudioProjects/WCapCal/app/build/intermediates/res/merged/debug/layout/evenements.xml",
+        "source": "/home/adamm/AndroidStudioProjects/WCapCal/app/src/main/res/layout/evenements.xml"
+    },
+    {
+        "merged": "/home/adamm/AndroidStudioProjects/WCapCal/app/build/intermediates/res/merged/debug/layout/addcalendar.xml",
+        "source": "/home/adamm/AndroidStudioProjects/WCapCal/app/src/main/res/layout/addcalendar.xml"
+    },
+    {
+        "merged": "/home/adamm/AndroidStudioProjects/WCapCal/app/build/intermediates/res/merged/debug/layout/parametre.xml",
+        "source": "/home/adamm/AndroidStudioProjects/WCapCal/app/src/main/res/layout/parametre.xml"
+    },
+    {
+        "merged": "/home/adamm/AndroidStudioProjects/WCapCal/app/build/intermediates/res/merged/debug/layout/fragment_picker.xml",
+        "source": "/home/adamm/AndroidStudioProjects/WCapCal/app/src/main/res/layout/fragment_picker.xml"
+    },
+    {
+        "merged": "/home/adamm/AndroidStudioProjects/WCapCal/app/build/intermediates/res/merged/debug/layout/firstpage.xml",
+        "source": "/home/adamm/AndroidStudioProjects/WCapCal/app/src/main/res/layout/firstpage.xml"
+    }
+]

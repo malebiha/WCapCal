@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Blanche">#ffffff</color>
+    <color name="Gris">#808080</color>
+    <color name="GrisClair">#C0C0C0</color>
+    <color name="GrisEdit">#DDDDDD</color>
+    <color name="Noire">#000000</color>
+    <declare-styleable name="ColorBars"><attr format="dimension" name="bar_thickness"/><attr format="dimension" name="bar_length"/><attr format="dimension" name="bar_pointer_radius"/><attr format="dimension" name="bar_pointer_halo_radius"/><attr format="boolean" name="bar_orientation_horizontal"/></declare-styleable>
+    <declare-styleable name="ColorPicker"><attr format="dimension" name="color_wheel_radius"/><attr format="dimension" name="color_wheel_thickness"/><attr format="dimension" name="color_center_radius"/><attr format="dimension" name="color_center_halo_radius"/><attr format="dimension" name="color_pointer_radius"/><attr format="dimension" name="color_pointer_halo_radius"/></declare-styleable>
+    <declare-styleable name="GridLayout"><attr name="orientation"><enum name="horizontal" value="0"/><enum name="vertical" value="1"/></attr><attr format="integer" name="rowCount"/><attr format="integer" name="columnCount"/><attr format="boolean" name="useDefaultMargins"/><attr name="alignmentMode"><enum name="alignBounds" value="0"/><enum name="alignMargins" value="1"/></attr><attr format="boolean" name="rowOrderPreserved"/><attr format="boolean" name="columnOrderPreserved"/></declare-styleable>
+    <declare-styleable name="GridLayout_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_margin"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginRight"/><attr name="android:layout_marginBottom"/><attr format="integer" name="layout_row"/><attr format="integer" min="1" name="layout_rowSpan"/><attr format="integer" name="layout_column"/><attr format="integer" min="1" name="layout_columnSpan"/><attr name="layout_gravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="bar_length">240dp</dimen>
+    <dimen name="bar_pointer_halo_radius">14dp</dimen>
+    <dimen name="bar_pointer_radius">6dp</dimen>
+    <dimen name="bar_thickness">4dp</dimen>
+    <dimen name="color_center_halo_radius">60dp</dimen>
+    <dimen name="color_center_radius">54dp</dimen>
+    <dimen name="color_pointer_halo_radius">18dp</dimen>
+    <dimen name="color_pointer_radius">14dp</dimen>
+    <dimen name="color_wheel_radius">124dp</dimen>
+    <dimen name="color_wheel_thickness">8dp</dimen>
+    <dimen name="default_gap">16dip</dimen>
+    <string name="AddCalendar">Ajout d\'un agenda</string>
+    <string name="AdvandedParameter">Paramètres avancés</string>
+    <string name="AgendaList">Liste des agendas</string>
+    <string name="Annuler">Annuler</string>
+    <string name="Bienvenue">Bienvenue dans l\'application WCap\'Cal</string>
+    <string name="Clear">Supprimer tous les agendas</string>
+    <string name="Couleur">Couleur de l\'agenda :</string>
+    <string name="DataRecept">Mode de réception des données :</string>
+    <string name="Identifiant">Identifiant :</string>
+    <string name="InformationContain">Cette application a été développée par Simon BRUNOU, François DUCLOS, Quentin GUILLOU et Mehdi SABIR, étudiants en DUT informatique, dans le cadre de leur projet de synthèse. </string>
+    <string name="NewAgenda">Nouveau agenda</string>
+    <string name="NomAgenda">Nom de l\'agenda :</string>
+    <string name="Off">Off</string>
+    <string name="On">On</string>
+    <string name="Password">Mot de passe :</string>
+    <string name="Pourcentage">"Choisir le pourcentage de batterie où la synchronisation est interrompue "</string>
+    <string name="PourcentageValue">&lt;value></string>
+    <string name="Reseau">Réseau</string>
+    <string name="StartIndication">Pour commencer, appuyez sur le bouton et entrez les données de votre agenda.</string>
+    <string name="SyncAuto">Synchronisation automatique</string>
+    <string name="SyncDelai">Délai de synchronisation :</string>
+    <string name="Url">URL du serveur :</string>
+    <string name="UrlExemple">https://agenda.univ-ubs.fr</string>
+    <string name="Valider">Valider</string>
+    <string name="Wifi">Wi-fi</string>
+    <string name="about">Informations</string>
+    <string name="action_settings">Paramètres avancés</string>
+    <string name="app_name">WCap\'Cal</string>
+    <string name="button">Choisir la couleur de l\'agenda</string>
+    <string name="changerParametre">changerParametre</string>
+    <string name="color">Couleur de l\'agenda</string>
+    <string name="display_colortext">Couleur de l\'agenda : </string>
+    <string name="evenements">Liste des événements</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="informationAppli">Cette application permet la synchronisation d\'agenda (SUN CALENDAR) sur votre application de visualisation d\'agenda.</string>
+    <string name="nb_event">nb_event</string>
+    <string name="summary_pref_1">summary_pref_1</string>
+    <string name="sync">Synchronisation automatique</string>
+    <string name="title_activity_first_page">FirstPage</string>
+    <string name="title_activity_picker">WCap\'Cal</string>
+    <string name="title_category_1">title_category_1</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

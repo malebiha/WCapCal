@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout13"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Noire"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Noire" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="@string/AddCalendar"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/Blanche" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/Url"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/Blanche" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/Blanche"
+                android:contentDescription="@string/Url"
+                android:ems="20"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:text="@string/UrlExemple"
+                android:textColor="@color/Noire"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/Identifiant"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/Blanche" />
+
+            <EditText
+                android:id="@+id/EditText2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/Blanche"
+                android:contentDescription="@string/Url"
+                android:ems="10"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:textColor="@color/Noire"
+                android:textSize="20sp" >
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/TextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/Password"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/Blanche" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/Blanche"
+                android:ems="10"
+                android:height="30dp"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:textColor="@color/Noire"
+                android:textSize="20sp" />
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="40dp" >
+
+                <Button
+                    android:id="@+id/Button01"
+                    style="@color/Gris"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/Gris"
+                    android:onClick="ajouterAgenda"
+                    android:text="@string/Valider" />
+
+                <Button
+                    android:id="@+id/button2"
+                    style="@color/Gris"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:background="@color/Gris"
+                    android:onClick="annulerAjout"
+                    android:text="@string/Annuler" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
